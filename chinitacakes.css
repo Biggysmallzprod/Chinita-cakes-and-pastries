@@ -372,7 +372,8 @@ footer {
             overflow: hidden;
             border-radius: 10px;
             height: auto;
-            object-fit: contain;
+            max-height: 200%
+            
         }
 
         .slide {
