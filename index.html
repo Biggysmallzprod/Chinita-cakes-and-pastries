@@ -244,6 +244,10 @@
         dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 3000); // Change image every 3 seconds
       }
+      function toggleMenu() {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('show');
+            }
        
     </script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">function currentSlide(n) {
