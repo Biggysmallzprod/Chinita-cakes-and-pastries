@@ -371,6 +371,7 @@ footer {
             margin: auto;
             overflow: hidden;
             border-radius: 10px;
+            height: auto;
         }
 
         .slide {
@@ -405,6 +406,7 @@ footer {
         @media only screen and (max-width: 768px) {
             .slideshow-container img {
                 width: 100%;
+                height: auto;
             }
         }
 }
