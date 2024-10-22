@@ -309,7 +309,6 @@ footer {
             }
   /* Slideshow CSS */
    .slideshow-container {
-    max-height: 300px;
     position: relative;
     max-width: 100%;
     margin: auto;
@@ -373,6 +372,7 @@ footer {
             overflow: hidden;
             border-radius: 10px;
             height: auto;
+            object-fit: contain;
         }
 
         .slide {
