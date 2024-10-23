@@ -112,10 +112,23 @@
         font-size: 1rem;
         cursor: pointer;
         transition: background-color 0.3s;
+        animation: pulse 2s infinite;
       }
 
       .hero button:hover {
         background-color: #ff7f50;
+      }
+
+       @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
       }
 
       /* Products Section */
@@ -241,6 +254,10 @@
         .nav-links.show {
           display: flex;
         }
+        .nav-links a {
+          padding: 10px;
+          border-bottom: 1px solid #d2691e;
+        }
       }
 
       @media only screen and (max-width: 480px) {
@@ -262,6 +279,15 @@
 
         .product h3 {
           font-size: 1.25rem;
+        }
+        .hero button {
+          font-size: 0.9rem;
+          padding: 10px 20px;
+        }
+
+        .product button {
+          font-size: 0.9rem;
+          padding: 8px 12px;
         }
       }
 
