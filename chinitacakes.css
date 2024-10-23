@@ -106,17 +106,10 @@
         margin-bottom: 20px;
         overflow: hidden;
         white-space: nowrap;
-       animation: typing 4s steps(40, end) forwards;
-       width: fit-content;
+       
       }
 
-      @keyframes typing {
-        0% {
-          width: 0;
-        }
-        100% {
-          width: 100%;
-        }
+      
       }
 
       .hero button {
@@ -134,16 +127,7 @@
         background-color: #ff7f50;
       }
 
-       @keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.05);
-        }
-        100% {
-          transform: scale(1);
-        }
+       
       }
 
       /* Products Section */
@@ -275,8 +259,7 @@
         }
         .hero p {
           font-size: 1rem;
-          animation: typing 4s steps(40, end) forwards;
-           width: fit-content;
+         
         }
       }
 
@@ -291,8 +274,7 @@
 
         .hero p {
           font-size: 1rem;
-          animation: typing 4s steps(40, end) forwards;
-          width: fit-content;
+      
         }
 
         .products h2 {
