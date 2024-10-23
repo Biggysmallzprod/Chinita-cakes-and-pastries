@@ -107,6 +107,7 @@
         overflow: hidden;
         white-space: nowrap;
        animation: typing 4s steps(40, end) forwards;
+       width: fit-content;
       }
 
       @keyframes typing {
@@ -275,6 +276,7 @@
         .hero p {
           font-size: 1rem;
           animation: typing 4s steps(40, end) forwards;
+           width: fit-content;
         }
       }
 
@@ -290,6 +292,7 @@
         .hero p {
           font-size: 1rem;
           animation: typing 4s steps(40, end) forwards;
+          width: fit-content;
         }
 
         .products h2 {
