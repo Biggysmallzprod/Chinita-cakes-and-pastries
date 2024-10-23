@@ -75,6 +75,7 @@
         color: #fff;
         text-align: center;
         position: relative;
+        animation: slideIn 2s ease-in-out;
       }
 
       .hero::after {
@@ -91,6 +92,7 @@
         position: relative;
         z-index: 1;
         padding: 20px;
+        animation: fadeInUp 2s ease-in-out;
       }
 
       .hero h1 {
@@ -102,6 +104,18 @@
       .hero p {
         font-size: 1.25rem;
         margin-bottom: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 4s steps(40, end) infinite alternate;
+      }
+
+      @keyframes typing {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 100%;
+        }
       }
 
       .hero button {
